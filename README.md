@@ -82,7 +82,7 @@ Aqui estão alguns mockups de interface como guia para a criação do front-end.
 
 ## Licença
 
-[![license](https://img.shields.io/github/license/{reinheimermat}/{unifront}.svg)](https://mit-license.org/)
+[![license](https://img.shields.io/github/license/reinheimermat/unifront.svg)](https://mit-license.org/)
 
 ![vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 ![react](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)

@@ -1,8 +1,17 @@
+import { Theme } from '@radix-ui/themes'
+import { SubHeader } from './components/sub-header'
+import { DashBoard } from './pages/dashboard'
+
 function App() {
   return (
-    <>
-      <h1>Hello World</h1>
-    </>
+    <Theme>
+      <header>
+        <SubHeader />
+      </header>
+      <main>
+        <DashBoard />
+      </main>
+    </Theme>
   )
 }
 

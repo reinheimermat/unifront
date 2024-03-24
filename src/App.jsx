@@ -1,16 +1,10 @@
 import { Theme } from '@radix-ui/themes'
-import { SubHeader } from './components/sub-header'
-import { DashBoard } from './pages/dashboard'
+import { Navigation } from './components/navigation'
 
 function App() {
   return (
     <Theme>
-      <header>
-        <SubHeader />
-      </header>
-      <main>
-        <DashBoard />
-      </main>
+      <Navigation />
     </Theme>
   )
 }

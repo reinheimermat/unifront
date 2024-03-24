@@ -72,7 +72,7 @@ export const Login = () => {
     <div className="flex justify-center items-center h-screen bg-custom-black-200">
       <div className="flex justify-center items-center flex-col bg-custom-black-300 w-full sm:w-[450px] h-screen sm:h-auto px-9 py-10 rounded-md">
         <div className="text text-3xl font-semibold text-custom-gray-200 mb-8 text-center -tracking-tighter">
-          Login
+          Unifront
         </div>
 
         <form className="w-full" onSubmit={handleFormSubmit}>

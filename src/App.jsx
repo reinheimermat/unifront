@@ -1,16 +1,16 @@
 import { Theme } from '@radix-ui/themes'
-import { SubHeader } from './components/sub-header'
-import { DashBoard } from './pages/dashboard'
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
+import { AdmProvider } from './contexts/isAdmContext'
+import { AppRoutes } from './routes'
 
 function App() {
   return (
     <Theme>
-      <header>
-        <SubHeader />
-      </header>
-      <main>
-        <DashBoard />
-      </main>
+      <AdmProvider>
+        <AppRoutes />
+        <ToastContainer />
+      </AdmProvider>
     </Theme>
   )
 }

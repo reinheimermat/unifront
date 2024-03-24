@@ -23,7 +23,7 @@ export function Overview() {
   ]
 
   return (
-    <article className="bg-white mt-20 p-11 rounded-3xl">
+    <article className="bg-white mt-20 p-11 rounded-3xl max-w-3xl">
       <ul className="flex gap-4">
         {card.map((item, index) => (
           <li key={index} className="flex flex-col gap-2 p-4 rounded-md">

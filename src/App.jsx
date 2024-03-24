@@ -10,7 +10,7 @@ function App() {
         <header>
           <Navigation />
         </header>
-        <section>
+        <section className="w-screen">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/estudantes" element={'<Students />'} />
